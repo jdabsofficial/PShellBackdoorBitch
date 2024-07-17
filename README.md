@@ -91,7 +91,7 @@ C:\Users\jdabs\Desktop\PShellBackdoorBitch> python .\listen.py --verbose
 A file in the current working directory will be created called backdoor.ps1
 
 ### Backdoor Execution
-Tested on Windows 11, Windows 10 and Kali Linux. To run this as a hidden window and with persistence access follow the guide ![here](https://github.com/Drew-Alleman/powershell-backdoor-generator/issues/2#issuecomment-1546996105)
+Tested on Windows 11, Windows 10 and Kali Linux.
 ```cmd
 powershell.exe -File backdoor.ps1 -ExecutionPolicy Unrestricted
 ```
@@ -106,6 +106,7 @@ When using any of these attacks you will be opening up a HTTP server hosting the
 ## Payloads
    * Execute -- Execute the backdoor 
    * BindAndExecute -- Place the backdoor in the users temp directory, bind the backdoor to startup and then execute it. (Requires Admin)
+     
 ## Flipper Zero Backdoor
 Below will generate a file called powershell_backdoor.txt, which when triggered on the Flipper will fetch the backdoor from your computer over HTTP and execute it.
 ```
@@ -127,7 +128,7 @@ A file named inject.bin will be placed in your current working directory. Java i
 it will download and execute backdoor.ps1
 
 ## Thanks
-To encode payload.txt into inject.bin for USB Rubber Ducky Attacks I use encoder.jar created by ![midnitesnake](https://github.com/midnitesnake).
+To encode payload.txt into inject.bin for USB Rubber Ducky Attacks I use encoder.jar
 
 ## To Do 
 * Pull Recent RDP connections
