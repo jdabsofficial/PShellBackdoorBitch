@@ -116,7 +116,6 @@ Below is a tutorial on how to generate an inject.bin file for the Hak5 USB Rubbe
 A file named inject.bin will be placed in your current working directory. Java is required for this feature. When the payload is executed 
 it will download and execute backdoor.ps1
 
-## Thanks
 To encode payload.txt into inject.bin for USB Rubber Ducky Attacks I use encoder.jar
 
 ## To Do 
